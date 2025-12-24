@@ -47,13 +47,13 @@ export function VectorLoomShowcase({
     >
       <div className="bg-gradient-to-br from-background-secondary to-background-primary border-2 border-accent-primary/30 rounded-2xl p-8 md:p-12 relative overflow-hidden group hover:border-accent-primary/60 transition-all duration-300"
         style={{
-          boxShadow: '0 8px 32px rgba(255, 211, 0, 0.2)',
+          boxShadow: '0 8px 32px rgba(0, 217, 255, 0.2)',
         }}
       >
         {/* Tech grid overlay */}
         <div className="absolute inset-0 opacity-5"
           style={{
-            backgroundImage: 'linear-gradient(rgba(255, 211, 0, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 211, 0, 0.3) 1px, transparent 1px)',
+            backgroundImage: 'linear-gradient(rgba(0, 217, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 217, 255, 0.3) 1px, transparent 1px)',
             backgroundSize: '30px 30px'
           }}
         ></div>

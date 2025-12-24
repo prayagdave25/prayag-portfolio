@@ -94,7 +94,7 @@ export function SkillsPillars({ pillars }: SkillsPillarsProps) {
                   {/* Tech grid overlay */}
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"
                     style={{
-                      backgroundImage: 'linear-gradient(rgba(255, 211, 0, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 211, 0, 0.1) 1px, transparent 1px)',
+                      backgroundImage: 'linear-gradient(rgba(0, 217, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 217, 255, 0.1) 1px, transparent 1px)',
                       backgroundSize: '20px 20px'
                     }}
                   ></div>

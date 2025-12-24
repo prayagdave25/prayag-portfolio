@@ -19,9 +19,9 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 const proficiencyColors = {
-  expert: '#FFD300',
-  advanced: '#FFA500',
-  intermediate: '#FF8C00',
+  expert: '#00D9FF',
+  advanced: '#00B8D4',
+  intermediate: '#0891B2',
 };
 
 export function TechnologyGrid({ categories }: TechnologyGridProps) {
@@ -41,13 +41,13 @@ export function TechnologyGrid({ categories }: TechnologyGridProps) {
           custom={index}
           className="bg-background-secondary border-2 border-accent-primary/20 rounded-lg p-6 hover:border-accent-primary transition-all duration-300 relative overflow-hidden group hover:shadow-2xl"
           style={{
-            boxShadow: '0 4px 20px rgba(255, 211, 0, 0.1)',
+            boxShadow: '0 4px 20px rgba(0, 217, 255, 0.1)',
           }}
         >
           {/* Animated background grid */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-300"
             style={{
-              backgroundImage: 'linear-gradient(rgba(255, 211, 0, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 211, 0, 0.2) 1px, transparent 1px)',
+              backgroundImage: 'linear-gradient(rgba(0, 217, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 217, 255, 0.2) 1px, transparent 1px)',
               backgroundSize: '20px 20px'
             }}
           ></div>

@@ -15,9 +15,9 @@ const config: Config = {
           tertiary: '#334155',
         },
         accent: {
-          primary: '#FFD300',
-          secondary: '#FFA500',
-          hover: '#FFED4E',
+          primary: '#00D9FF',
+          secondary: '#00B8D4',
+          hover: '#33E0FF',
         },
         text: {
           primary: '#F1F5F9',

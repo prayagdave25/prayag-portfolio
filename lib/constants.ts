@@ -154,7 +154,7 @@ export const vectorLoomProject: VectorLoomProject = {
     { name: "Weaviate", icon: "weaviate-icon", color: "#00C853" },
     { name: "Qdrant", icon: "qdrant-icon", color: "#DC395F" },
     { name: "FastAPI", icon: "fastapi-icon", color: "#009688" },
-    { name: "Next.js", icon: "nextjs-icon", color: "#FFD300" },
+    { name: "Next.js", icon: "nextjs-icon", color: "#00D9FF" },
     { name: "LangChain", icon: "langchain-icon", color: "#1C3C3C" },
   ],
   githubUrl: "https://github.com/prayagdave25/vectorloom",
@@ -188,6 +188,6 @@ export const skillsPillars: SkillPillar[] = [
       "Multi-Agent Systems (Coming Soon)",
       "Reasoning Models (Coming Soon)",
     ],
-    color: "#FFD300",
+    color: "#00D9FF",
   },
 ];

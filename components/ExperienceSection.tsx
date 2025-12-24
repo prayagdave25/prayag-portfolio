@@ -75,7 +75,7 @@ export function ExperienceSection() {
             variants={fadeVariant}
             className="bg-background-secondary border-2 border-accent-primary/20 rounded-lg p-6 md:p-8 relative overflow-hidden group hover:border-accent-primary/60 transition-all duration-300"
             style={{
-              boxShadow: exp.isAI ? '0 4px 20px rgba(255, 211, 0, 0.15)' : '0 4px 20px rgba(255, 211, 0, 0.1)',
+              boxShadow: exp.isAI ? '0 4px 20px rgba(0, 217, 255, 0.15)' : '0 4px 20px rgba(0, 217, 255, 0.1)',
             }}
           >
             {/* Corner brackets */}
@@ -87,7 +87,7 @@ export function ExperienceSection() {
             {/* Tech grid overlay */}
             <div className="absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-300"
               style={{
-                backgroundImage: 'linear-gradient(rgba(255, 211, 0, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 211, 0, 0.2) 1px, transparent 1px)',
+                backgroundImage: 'linear-gradient(rgba(0, 217, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 217, 255, 0.2) 1px, transparent 1px)',
                 backgroundSize: '20px 20px'
               }}
             ></div>
