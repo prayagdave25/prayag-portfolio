@@ -63,7 +63,7 @@ export function TechnologyGrid({ categories }: TechnologyGridProps) {
               {iconMap[category.icon]}
             </div>
             <h3 className="text-xl font-bold text-text-primary font-mono">
-              <span className="text-accent-primary text-sm"># </span>
+              <span className="text-accent-primary text-sm">{'# '}</span>
               {category.title}
             </h3>
           </div>

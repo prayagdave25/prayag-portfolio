@@ -107,7 +107,7 @@ export function ExperienceSection() {
                   {exp.location && <span className="text-text-secondary"> • {exp.location}</span>}
                 </p>
                 <p className="text-sm text-text-secondary font-mono">
-                  <span className="text-accent-primary">// </span>
+                  <span className="text-accent-primary">{'// '}</span>
                   {exp.period}
                 </p>
               </div>

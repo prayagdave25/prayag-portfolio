@@ -121,7 +121,7 @@ export function SkillsPillars({ pillars }: SkillsPillarsProps) {
                         <span className="text-accent-primary">/&gt;</span>
                       </h3>
                       <p className="text-sm text-text-secondary mt-1 font-mono">
-                        // {pillar.subtitle}
+                        {'// '}{pillar.subtitle}
                       </p>
                     </div>
                   </div>

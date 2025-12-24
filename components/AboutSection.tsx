@@ -40,13 +40,13 @@ export function AboutSection() {
           About Me
         </h2>
         <p className="text-lg text-text-secondary max-w-3xl mx-auto leading-relaxed">
-          I'm a Senior Technical Lead at Montran Corporation with over a decade of experience 
+          I&apos;m a Senior Technical Lead at Montran Corporation with over a decade of experience 
           architecting national-scale financial infrastructure for central banks worldwide. 
-          From CSD Ghana processing 1.5M+ daily transactions to Qatar's regulatory-compliant platform, 
-          I've delivered systems that power entire economies. Now, I'm channeling that expertise 
+          From CSD Ghana processing 1.5M+ daily transactions to Qatar&apos;s regulatory-compliant platform, 
+          I&apos;ve delivered systems that power entire economies. Now, I&apos;m channeling that expertise 
           into the AI revolution, building intelligent RAG systems like VectorLoom that transform 
           how we interact with data. My unique blend of enterprise reliability and AI innovation 
-          means I don't just build systems—I build systems that scale, perform, and push boundaries.
+          means I don&apos;t just build systems—I build systems that scale, perform, and push boundaries.
         </p>
       </motion.div>
 

@@ -72,7 +72,7 @@ export function VectorLoomShowcase({
             <span className="text-accent-primary">/&gt;</span>
           </h3>
           <p className="text-xl text-accent-primary font-semibold mb-4 font-mono">
-            // {tagline}
+            {'// '}{tagline}
           </p>
           <p className="text-text-secondary max-w-2xl mx-auto font-mono text-sm">
             {description}
@@ -121,7 +121,7 @@ export function VectorLoomShowcase({
         {/* Tech Stack */}
         <div className="mb-8 relative z-10">
           <h4 className="text-lg font-semibold text-text-primary mb-4 text-center font-mono">
-            <span className="text-accent-primary"># </span>
+            <span className="text-accent-primary">{'# '}</span>
             Built With
           </h4>
           <div className="flex flex-wrap justify-center gap-4">

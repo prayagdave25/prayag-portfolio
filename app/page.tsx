@@ -101,11 +101,11 @@ export default function Home() {
         <ErrorBoundary componentName="Experience Section">
           <section id="experience" className="py-20 px-4 md:px-8 lg:px-16 bg-background-secondary" aria-label="Professional Experience">
             <h2 className="text-3xl md:text-4xl font-bold text-text-primary text-center mb-4 font-mono">
-              <span className="text-accent-primary"># </span>
+              <span className="text-accent-primary">{'# '}</span>
               Experience Roadmap
             </h2>
             <p className="text-center text-text-secondary mb-12 font-mono text-sm">
-              <span className="text-accent-primary">// </span>
+              <span className="text-accent-primary">{'// '}</span>
               A decade of building financial systems and pioneering AI innovation
             </p>
             <ExperienceSection />

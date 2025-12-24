@@ -211,7 +211,7 @@ export function ChatInterface({
             Chat with my Resume
           </h2>
           <p className="text-sm text-text-secondary mt-1">
-            Ask me anything about Prayag's experience
+            Ask me anything about Prayag&apos;s experience
           </p>
         </div>
 

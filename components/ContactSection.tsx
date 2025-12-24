@@ -53,7 +53,7 @@ export function ContactSection() {
         viewport={{ once: true }}
       >
         <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
         <p className="text-lg text-text-secondary mb-12 max-w-2xl mx-auto">
           Interested in collaborating on AI projects or discussing enterprise architecture? 
