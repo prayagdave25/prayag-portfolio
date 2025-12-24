@@ -5,6 +5,7 @@ import { ProjectFeature, TechStack } from '@/lib/constants';
 import { useReducedMotion } from '@/lib/hooks/useReducedMotion';
 import { fadeInUp, fadeInUpReduced, staggerContainer, staggerContainerReduced, hoverLift, hoverLiftReduced } from '@/lib/animations';
 import { FaCube, FaSearch, FaUpload, FaBrain, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { trackEvent } from './GoogleAnalytics';
 
 interface VectorLoomShowcaseProps {
   title: string;
@@ -147,6 +148,7 @@ export function VectorLoomShowcase({
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackEvent('click', 'project', 'VectorLoom GitHub')}
             className="flex items-center gap-2 px-6 py-3 bg-accent-primary text-background-primary rounded-lg font-semibold font-mono hover:bg-accent-hover transition-all duration-300 border-2 border-accent-primary hover:shadow-lg hover:shadow-accent-primary/50"
           >
             <FaGithub className="w-5 h-5" />
@@ -157,6 +159,7 @@ export function VectorLoomShowcase({
               href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackEvent('click', 'project', 'VectorLoom Demo')}
               className="flex items-center gap-2 px-6 py-3 border-2 border-accent-primary text-accent-primary rounded-lg font-semibold font-mono hover:bg-accent-primary hover:text-background-primary transition-all duration-300"
             >
               <FaExternalLinkAlt className="w-4 h-4" />

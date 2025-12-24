@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useReducedMotion } from '@/lib/hooks/useReducedMotion';
 import { fadeInUp, fadeInUpReduced, hoverLift, hoverLiftReduced } from '@/lib/animations';
 import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa';
+import { trackEvent } from './GoogleAnalytics';
 
 interface ContactLink {
   icon: React.ReactNode;
@@ -74,6 +75,7 @@ export function ContactSection() {
             viewport={{ once: true }}
             custom={index}
             {...liftVariant}
+            onClick={() => trackEvent('click', 'contact', link.label)}
             className="bg-background-secondary border border-border rounded-lg p-6 hover:border-accent-primary transition-colors group"
           >
             <div 
