@@ -22,7 +22,7 @@ const contactLinks: ContactLink[] = [
   {
     icon: <FaLinkedin className="w-6 h-6" />,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/prayagdave',
+    href: 'https://www.linkedin.com/in/prayag-dave-2504/',
     color: '#0A66C2',
   },
   {

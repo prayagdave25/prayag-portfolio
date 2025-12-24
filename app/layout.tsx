@@ -65,7 +65,7 @@ export default function RootLayout({
     url: 'https://prayagdave.com',
     sameAs: [
       'https://github.com/prayagdave25',
-      'https://linkedin.com/in/prayagdave',
+      'https://www.linkedin.com/in/prayag-dave-2504/',
     ],
     knowsAbout: [
       'FinTech Architecture',
