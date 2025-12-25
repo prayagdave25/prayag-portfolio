@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 
@@ -91,6 +92,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="stylesheet" href="/widget.css" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -101,6 +103,37 @@ export default function RootLayout({
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         )}
         {children}
+        
+        {/* Resume Chat Widget */}
+        <div id="resume-chat-widget" />
+        
+        {/* Chat Widget Configuration */}
+        <Script id="chat-config" strategy="beforeInteractive">
+          {`
+            window.RESUME_CHAT_CONFIG = {
+              backendUrl: '${process.env.NEXT_PUBLIC_VECTORLOOM_BACKEND_URL || ''}',
+              credentials: {
+                deployment: 'Custom',
+                url: '${process.env.NEXT_PUBLIC_QDRANT_URL || ''}',
+                key: '${process.env.NEXT_PUBLIC_QDRANT_API_KEY || ''}',
+                db_type: 'qdrant'
+              },
+              theme: {
+                primaryColor: '#4F46E5',
+                headerText: 'Ask about my Resume',
+                welcomeMessage: 'Hi! Ask me anything about my experience, skills, or projects.',
+                placeholder: 'Ask a question...',
+                suggestedQuestions: [
+                  'What are your main technical skills?',
+                  'Tell me about your FinTech experience',
+                  'What AI projects have you worked on?',
+                  'What technologies do you work with?'
+                ]
+              }
+            };
+          `}
+        </Script>
+        <Script src="/widget.js" strategy="lazyOnload" />
       </body>
     </html>
   )
