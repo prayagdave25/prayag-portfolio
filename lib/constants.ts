@@ -127,7 +127,7 @@ export const technologyCategories: TechnologyCategory[] = [
 export const vectorLoomProject: VectorLoomProject = {
   title: "VectorLoom",
   tagline: "Modular & Customizable RAG Platform",
-  description: "A highly modular full-stack Retrieval-Augmented Generation platform with pluggable vector database support. Built with FastAPI, Next.js, and designed for extensibility.",
+  description: "A personal skill development project showcasing a highly modular full-stack Retrieval-Augmented Generation (RAG) platform. VectorLoom demonstrates advanced AI capabilities with pluggable vector database support, combining FastAPI backend with Next.js frontend. Built to explore and master modern AI/ML technologies through hands-on implementation.",
   features: [
     {
       title: "3D Vector Visualization",
