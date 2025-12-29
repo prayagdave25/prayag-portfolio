@@ -158,7 +158,7 @@ export const vectorLoomProject: VectorLoomProject = {
     { name: "LangChain", icon: "langchain-icon", color: "#1C3C3C" },
   ],
   githubUrl: "https://github.com/prayagdave25/vectorloom",
-  demoUrl: null,
+  demoUrl: "https://vectorloom-connection.up.railway.app/",
 };
 
 // Skills Pillars
